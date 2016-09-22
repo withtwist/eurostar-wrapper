@@ -1,0 +1,26 @@
+{
+  "name": "eurostar-wrapper",
+  "version": "0.0.1",
+  "description": "Nodejs wrapper for the swedish cinema website https://www.eurostar.se",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/withtwist/eurostar-wrapper.git"
+  },
+  "keywords": [
+    "eurostar"
+  ],
+  "author": "Simon Almgren",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/withtwist/eurostar-wrapper/issues"
+  },
+  "homepage": "https://github.com/withtwist/eurostar-wrapper#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "request": "^2.75.0"
+  }
+}

@@ -1,15 +1,6 @@
 
 var cheerio = require('cheerio');
-var regex = require('regex');
 var request = require('request');
-
-
-
-
-
-
-
-
 
 module.exports = {
     //Fetches a list of {id,name} pairs for avaliable cities.
